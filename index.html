@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Data Types</title>
+        <link rel="stylesheet" href="./css/style.js">
+        <link rel="stylesheet" href="./css/style2.js">
+        <style> 
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+            /* 
+            Lets store the student's information inside a js object
+            */
+            let student2 = {
+                // 1. Property.vlaue
+                name:'Happy',
+                surname:`Khamari`,
+                mobNo:'6666666666',
+
+                //2.
+            }; //JS Object
+
+            // How many way i can see the js output
+
+            // object.property
+
+            window.alert("Hello"+' '+ student2.name); //function
+
+            // 10 + 3 //Addition Operator
+
+            // "Anil" + "Dollor"  //Concatination Operator
+        </script>
+        <script>
+            // ES = 2015 , let
+            let student3 = {
+                // 1. property:value,
+                name:`Biki`,
+                surname:"Khamari",
+
+                // 2.
+            };
+            
+        </script>
+    </head>
+    <body>
+        <div class="mydiv">Content Area</div>
+        <h1>Javascript Data Types</h1>
+        <ol>
+            <li>Number ---> 6/3.21</li>
+            <li>String ---> ""/''/``</li>
+            <li>Object ---> {} </li>
+        </ol>
+        <p data-news1 = "news1"></p>
+
+
+        <script src="./js/script2.js"></script>
+        <script>
+            // How many way to see the js output
+
+            // 3. Third_way innerHTML = Content Area
+            document.querySelector(".mydiv").innerHTML = 'Hello'+" "+ student3.name;
+            
+        </script>
+        <script>
+            //      🔥 Assignment 🔥
+
+            let news1 = {
+                w1: 'PM', //string Data Type
+                w2: "Modi's", //string Data Type
+                w3: `address`, //string Data Type
+                w4: 'to', //string Data Type
+                w5: "US", //string Data Type
+                w6: `Congress`, //string Data Type
+                w7: 'showed', //string Data Type
+                w8: "that", //string Data Type
+                w9: `both`, //string Data Type
+                w10: 'Democrats', //string Data Type
+                w11: "and", //string Data Type
+                w12: `Republicans`, //string Data Type
+                w13: 'are', //string Data Type
+                w14: "invested", //string Data Type
+                w15: `in`, //string Data Type
+                w16: 'the', //string Data Type
+                w17: "ties", //string Data Type
+                w18: `as`, //string Data Type
+                w19: 'they', //string Data Type
+                w20: "feel", //string Data Type
+                w21: `he`, //string Data Type
+                w22: 'has', //string Data Type
+                w23: "the", //string Data Type
+                w24: `ability`, //string Data Type
+                w25: 'to', //string Data Type
+                w26: "stand", //string Data Type
+                w27: `up`, //string Data Type
+                w28: 'to', //string Data Type
+                w29: "challenge", //string Data Type
+            
+            }
+
+            var n1 = news1.w1+' '+news1.w2+" "+news1.w3+` `+news1.w4+' '+news1.w5+" "+news1.w6+` `+news1.w7+' '+news1.w8+" "+news1.w9+` `+news1.w10+' '+news1.w11+" "+news1.w12+` `+news1.w13+' '+news1.w14+" "+news1.w15+` `+news1.w16+' '+news1.w17+" "+news1.w18+` `+news1.w19+' '+news1.w20+" "+news1.w21+` `+news1.w22+' '+news1.w23+" "+news1.w24+` `+news1.w25+' '+news1.w26+" "+news1.w27+` `+news1.w28+' '+news1.w29 ;
+
+
+            document.querySelector('p[data-news1 ="news1"]').innerHTML = n1 ;
+            // object.property
+            console.log(n1);
+
+        </script>
+    </body>
+</html>
